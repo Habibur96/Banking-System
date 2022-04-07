@@ -16,7 +16,7 @@ document.getElementById('login-submit').addEventListener('click', function () {
 
 })
 
-// handle deposit button event
+
 
 
 
