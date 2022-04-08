@@ -26,9 +26,38 @@ document.getElementById('deposit-button').addEventListener('click', function () 
     const z = q.innerText;
     const num3 = parseFloat(z);
     const f = num2 + num3;
-
-
     q.innerText = f;
+
+    // handle withdraw event handler
+
+    document.getElementById('withdrow-button').addEventListener('click', function () {
+
+        const withdrawInput = document.getElementById('Withdrow-input');
+        const x = withdrawInput.value;
+
+        const s = parseFloat(x);
+
+        withdrawInput.value = '';
+
+        const ty = document.getElementById("withdrow1");
+
+        // update withdrow total
+
+        const t = ty.innerText;
+        const z = parseFloat(t);
+        const u = s + z;
+        ty.innerText = u;
+
+        // update balance
+
+
+
+
+
+
+    })
+
+
 
 
 

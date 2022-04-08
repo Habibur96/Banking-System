@@ -19,16 +19,3 @@ document.getElementById('login-submit').addEventListener('click', function () {
 
 
 
-
-// keyup
-// document.getElementById('serect-info').addEventListener('keyup', function (event) {
-
-//     const deleteField = document.getElementById('serect-info');
-//     if (event.target.value == 'Delete' || event.target.value == 'delete') {
-//         document.getElementById('click').removeAttribute('disabled');
-//     }
-
-//     else {
-//         document.getElementById('click').setAttribute('disabled', true)
-//     }
-// });
