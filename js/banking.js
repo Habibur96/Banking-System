@@ -50,6 +50,14 @@ document.getElementById('deposit-button').addEventListener('click', function () 
 
         // update balance
 
+        const finalBalance = f - u;
+
+        const o = document.getElementById('balance');
+        o.innerText = finalBalance;
+
+
+
+
 
 
 
