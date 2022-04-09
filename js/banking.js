@@ -28,45 +28,47 @@ document.getElementById('deposit-button').addEventListener('click', function () 
     const f = num2 + num3;
     q.innerText = f;
 
-    // handle withdraw event handler
+});
 
-    document.getElementById('withdrow-button').addEventListener('click', function () {
+// handle withdraw event handler
 
-        const withdrawInput = document.getElementById('Withdrow-input');
-        const x = withdrawInput.value;
+document.getElementById('withdrow-button').addEventListener('click', function () {
 
-        const s = parseFloat(x);
+    const withdrawInput = document.getElementById('Withdrow-input');
+    const x = withdrawInput.value;
 
-        withdrawInput.value = '';
+    const s = parseFloat(x);
 
-        const ty = document.getElementById("withdrow1");
+    withdrawInput.value = '';
 
-        // update withdrow total
+    const ty = document.getElementById("withdrow1");
 
-        const t = ty.innerText;
-        const z = parseFloat(t);
-        const u = s + z;
-        ty.innerText = u;
+    // update withdrow total
 
-        // update balance
+    const t = ty.innerText;
+    const z = parseFloat(t);
+    const u = s + z;
+    ty.innerText = u;
 
-        const finalBalance = f - u;
-
-        const o = document.getElementById('balance');
-        o.innerText = finalBalance;
+    // update balance
 
 
-
-
-
-
-
-
-
-    })
-
-
-
-
-
+    const o = document.getElementById('balance');
+    const ff = o.innerText;
+    const tt = parseFloat(ff);
+    const finalBalance = tt - s;
+    o.innerText = finalBalance;
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
